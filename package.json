@@ -1,0 +1,26 @@
+{
+  "name": "findhappi",
+  "version": "1.0.0",
+  "description": "findhappi mobile web application",
+  "engines": {
+    "node": "7.4.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:findhappi/main-app.git"
+  },
+  "author": "Sylvester Mobley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/findhappi/main-app/issues"
+  },
+  "homepage": "https://github.com/findhappi/main-app#readme"
+}
