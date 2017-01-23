@@ -8,44 +8,38 @@ app.set('view engine', 'handlebars');
 //Set the application port
 app.set('port', process.env.PORT || 4000);
 
+app.use(express.static(__dirname + '/public'));
+
 //Set application routes
 app.get('/', function(req, res){
-  res.type('text/plain');
-  res.send('Find Happi');
+  res.render('home');
 });
 app.get('/signup', function(req, res){
-  res.type('text/plain');
-  res.send('Sign Up');
+  res.render('signup');
 });
 app.get('/signin', function(req, res){
-  res.type('text/plain');
-  res.send('Sign In');
+  res.render('signin');
 });
 app.get('/score', function(req, res){
-  res.type('text/plain');
-  res.send('Score');
+  res.render('score');
 });
 app.get('/myaccount', function(req, res){
-  res.type('text/plain');
-  res.send('My Account');
+  res.render('myaccount');
 });
 app.get('/profile', function(req, res){
-  res.type('text/plain');
-  res.send('Profile');
+  res.render('profile');
 });
 //404 page
-app.use(function(req, res){
-  res.type('text/plain');
+app.use(function(req, res, next){
   res.status(404);
-  res.send('404 - Not Found');
+  res.render('404');
 });
 
 //500 page
 app.use(function(err, req, res, next){
   console.error(err.stack);
-  res.type('text/plain');
   res.status(500);
-  res.send('500 - Server Error');
+  res.render('500');
 });
 
 app.listen(app.get('port'), function(){
