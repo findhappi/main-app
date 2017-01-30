@@ -1,0 +1,83 @@
+h1{
+  font-size: 54px;
+  font-weight: bold;
+}
+.navbar{
+  background-color: white;
+  border: 1px solid;
+}
+.container{
+  margin: 0 0 0 0;
+  border: 1px solid;
+  width: 100%;
+}
+.row{
+  border: 1px solid;
+  margin: 0 0 0 0;
+}
+.col-md-8{
+  border: 1px solid;
+}
+.col-md-6{
+  border: 1px solid;
+}
+.col-md-4{
+  border: 1px solid;
+}
+.col-md-3{
+  border: 1px solid;
+}
+.subheading{
+  text-align: center;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+}
+.main-heading{
+  text-align: center;
+  padding-top: 160px;
+}
+.circle-container{
+  padding: 4%;
+
+  /*text-align: center;*/
+}
+#number-circle {
+	border-radius: 50%;
+  border: 1px solid;
+	width: 300px;
+	height: 300px;
+}
+#main-section{
+  border: 1px solid;
+  padding: 160px 0 0 0;
+  height: 960px;
+}
+#happi-container{
+  border: 1px solid;
+  padding-left: 30%;
+}
+#happi-number-box{
+  border: 1px solid;
+  width: 328px;
+}
+#number{
+  font-size: 180px;
+  text-align: center;
+  padding-top: 35px;
+}
+#profile-box{
+  border: 1px solid;
+  width: 328px;
+  padding: 10px 0 10px 112px;
+}
+#profile-circle{
+  border-radius: 50%;
+  border: 1px solid;
+	width: 100px;
+	height: 100px;
+}
+#profile-image-container{
+  height: 68%;
+  width: 70%;
+  padding: 27px 0 0 32px;
+}
