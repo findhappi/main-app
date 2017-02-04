@@ -35,6 +35,9 @@ app.get('/myaccount', function(req, res){
 app.get('/profile', function(req, res){
   res.render('profile');
 });
+app.get('/usernumber', function(req, res){
+  res.render('usernumber');
+});
 //404 page
 app.use(function(req, res, next){
   res.status(404);
