@@ -27,6 +27,9 @@ h1{
 .col-md-3{
   border: 1px solid;
 }
+.secondary-page-section{
+  padding: 80px 0 0 0;
+}
 .subheading-left{
   text-align: left;
   padding-bottom: 40px;
@@ -50,6 +53,16 @@ h1{
 .small-number{
   padding: 2px  0 0 0px;
   margin-top: 0px
+}
+.email-field{
+  padding: 80px 0 10px 0;
+}
+.secondary-page-title{
+  text-align: center;
+}
+.signin-signup-text{
+  text-align: center;
+  padding-bottom: 40px;
 }
 #main-section{
   border: 1px solid;
@@ -99,8 +112,12 @@ h1{
   padding-bottom: 0px;
 }
 #man{
-  padding-top: 80px;
+  padding-top: 140px;
 }
 #woman{
-  padding-top: 80px;
+  padding-top: 140px;
+}
+#signin{
+  text-align: center;
+  padding-bottom: 20px;
 }
