@@ -38,6 +38,9 @@ app.get('/profile', function(req, res){
 app.get('/usernumber', function(req, res){
   res.render('usernumber');
 });
+app.get('/forgotlogin', function(req, res){
+  res.render('forgotlogin');
+});
 //404 page
 app.use(function(req, res, next){
   res.status(404);
