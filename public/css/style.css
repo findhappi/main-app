@@ -2,6 +2,9 @@ h1{
   font-size: 54px;
   font-weight: bold;
 }
+.img-circle {
+    border-radius: 50%;
+}
 .navbar{
   background-color: white;
   border: 1px solid;
@@ -39,17 +42,13 @@ h1{
   text-align: left;
   padding-top: 160px;
 }
-.circle-container{
-  padding: 4%;
+.number-container{
+  height: 260px;
 
-  /*text-align: center;*/
 }
-.number-circle {
-	border-radius: 50%;
-  border: 3px solid;
-	width: 36px;
-	height: 36px;
-}
+/*.number-circle {
+  border: 1px solid;
+}*/
 .small-number{
   padding: 2px  0 0 0px;
   margin-top: 0px
@@ -79,34 +78,36 @@ h1{
   padding: 80px 0 0 0;
   height: 960px;
 }
+#happi-container-row{
+  padding-top: 80px;
+}
 #happi-container{
   border: 1px solid;
-  padding-left: 30%;
 }
 #happi-number-box{
   border: 1px solid;
-  width: 328px;
+  margin: 0 60px;
 }
 #number{
-  font-size: 180px;
+  font-size: 80px;
   text-align: center;
-  padding-top: 35px;
+  /*border: 1px solid;*/
+  margin: 120px 0 0 0;
+  /*padding: 30px 30px 30px 30px;*/
 }
 #profile-box{
   border: 1px solid;
-  width: 328px;
-  padding: 10px 0 10px 112px;
+  margin: 0 60px;
 }
 #profile-circle{
-  border-radius: 50%;
-  border: 1px solid;
-	width: 100px;
-	height: 100px;
+  text-align: center;
+  padding: 10px
 }
 #profile-image-container{
-  height: 68%;
-  width: 70%;
-  padding: 27px 0 0 32px;
+  height: 30%;
+  width: 30%;
+  padding: 6px 6px 6px 6px;
+  border: 1px solid;
 }
 #heading-container{
   padding-bottom: 0px;
@@ -120,4 +121,13 @@ h1{
 #signin{
   text-align: center;
   padding: 80px 0 40px 0;
+}
+@media screen and (max-width: 414px) {
+  #number{
+    font-size: 60px;
+    /*text-align: center;
+    border: 1px solid;
+    margin: 80px 40px 40px 40px;
+    padding: 50px 50px 50px 50px;*/
+  }
 }
