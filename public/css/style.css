@@ -30,6 +30,9 @@ h1{
 .col-md-3{
   border: 1px solid;
 }
+.col-md-2{
+  border: 1px solid;
+}
 .secondary-page-section{
   padding: 80px 0 0 0;
 }
@@ -44,7 +47,9 @@ h1{
 }
 .number-container{
   height: 260px;
-
+}
+.connected-data{
+  text-align: center;
 }
 /*.number-circle {
   border: 1px solid;
