@@ -35,6 +35,9 @@ app.get('/myaccount', function(req, res){
 app.get('/profile', function(req, res){
   res.render('profile');
 });
+app.get('/editprofile', function(req, res){
+  res.render('editprofile');
+});
 app.get('/usernumber', function(req, res){
   res.render('usernumber');
 });
