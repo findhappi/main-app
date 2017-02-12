@@ -130,6 +130,10 @@ h1{
 #plan-info{
   padding: 60px 0 0 0;
 }
+#edit-profile-link{
+  text-align: right;
+  margin: 0 60px;
+}
 @media screen and (max-width: 414px) {
   #number{
     font-size: 60px;
