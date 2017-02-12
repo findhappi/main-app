@@ -127,6 +127,9 @@ h1{
   text-align: center;
   padding: 80px 0 40px 0;
 }
+#plan-info{
+  padding: 60px 0 0 0;
+}
 @media screen and (max-width: 414px) {
   #number{
     font-size: 60px;
